@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="newcustomer" method="POST">
+        <label>name:</label><br>
+        <input type="text" name="name"/><br><br>
+        <label>mail:</label><br>
+        <input type="mail" name="mail"/><br><br>
+        <label>phone:</label><br>
+        <input type="text" name="phone"/><br><br>
+        <label>address:</label><br>
+        <input type="text" name="address"/><br><br>
+        <label>password:</label><br>
+        <input type="password" name="password"/><br><br>
+        <input type="submit" value="singup">
+    </form>
+  </body>
+</html>
